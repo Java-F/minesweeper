@@ -7,6 +7,7 @@ Text-Based Minesweeper Game
 
 ### Goals
 1. generate nXn board
+2. flush runtime screen
 
 ### Authors
 
