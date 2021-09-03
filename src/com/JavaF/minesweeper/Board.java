@@ -14,4 +14,15 @@ public class Board {
     }
 
 
+    public String[] createBoard(int boardSize){
+
+
+
+
+
+
+        return new String[0];
+    }
+
+
 }
