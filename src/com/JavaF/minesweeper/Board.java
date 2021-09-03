@@ -5,24 +5,17 @@ public class Board {
     public int boardSize;
     public int mineAmount;
 
-    public static String[] createBoard(){
+    public String[][] createBoard(int boardSize){
 
+        String[][] board = new String[boardSize][boardSize];
 
+        for(int i=0; i<boardSize; i++){
+            for(int j=0; j<boardSize;j++){
 
-
-        return new String[0];
+                board[i][j] = "X";
+            }
+        }
+        return board;
     }
-
-
-    public String[] createBoard(int boardSize){
-
-
-
-
-
-
-        return new String[0];
-    }
-
 
 }
